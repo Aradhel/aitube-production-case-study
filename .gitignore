@@ -1,0 +1,52 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# Databases, logs, caches, and user media
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+cache/
+*_cache/
+test_runs/
+uploads/
+outputs/
+generated/
+
+# Model and media artifacts
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.wav
+*.mp3
+*.mp4
+*.webm
+*.mov
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local review capture; intentionally excluded from the public portfolio
+media/dashboard-full.png
